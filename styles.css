@@ -72,7 +72,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 65%;
+    width: 90%;
     margin: 0 auto;
     padding: 2em;
 
@@ -227,6 +227,23 @@ footer p {
 
 .footer-title {
     font-weight: bold;
+}
+
+/* ABOUT ME PAGE STYLES */
+
+.about-me-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.about-me-title,
+.about-me-title2 {
+    margin-top: 1em;
+}
+
+.about-me-title2 {
+    color: #1792D2;
 }
 
 /* MEDIA QUERIES */
